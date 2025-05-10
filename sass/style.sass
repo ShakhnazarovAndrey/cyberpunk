@@ -1,0 +1,64 @@
+@import 'resets.scss'
+@import 'normalizes.scss'
+$color-black: #000000
+$color-yellow: #F8F200
+*
+    box-sizing: border-box
+.container
+    max-width: 1280px
+    margin: 0 auto
+    position: relative
+.main-section
+    position: relative
+    min-height: 1000px
+    background-image: url('../img/11.jpg')
+
+    &__logo
+        width: 296px
+        height: 74px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 60px
+        align-items: center
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 40px
+        &:last-child
+            margin-right: 0px
+.right-wrapper
+    width: 640px 
+    position: absolute
+    right: -25px
+    top: 568px
+    &__title
+        position: absolute
+        text-align: center
+        margin-left: 70px
+        margin-top: 70px
+        z-index: 10000
+    &__box
+        position: absolute
+.title
+    font-size: 62px
+.buttons
+    display: inline-flex
+    &__btn
+        position: relative
+        z-index: 4000
+        width: 272px
+        height: 78px
+        background: $color-black
+        font-size: 24px
+        color: $color-yellow 
+        margin-top: 221px
+        margin-left: 70px
+        
+    
+
+        
+        
